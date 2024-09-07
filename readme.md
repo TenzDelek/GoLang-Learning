@@ -27,3 +27,9 @@ env file dir
 - int - signed integer
 - uint - unsigned integer
 
+# place to find package for go
+> https://pkg.go.dev/
+
+
+# printf and println
+- printf: It allows you to format the output string using format specifiers like %T, %d, %s, etc.
