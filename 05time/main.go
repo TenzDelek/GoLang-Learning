@@ -7,4 +7,7 @@ import (
 
 func main() {
 	fmt.Println(time.Now().Format("01-02-2006 15:04:05 Monday")) //the time format is fixed we need to use that only
+	createddata := time.Date(2020, time.November, 10, 23, 23, 0, 0, time.UTC)
+	fmt.Println(createddata)
+	fmt.Println(createddata.Format("01-02-2006 15:04:05 Monday"))
 }

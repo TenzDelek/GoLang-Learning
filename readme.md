@@ -33,3 +33,7 @@ env file dir
 
 # printf and println
 - printf: It allows you to format the output string using format specifiers like %T, %d, %s, etc.
+
+# build window exe
+- in your git bash
+- GOOS="windows" go build
