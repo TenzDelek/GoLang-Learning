@@ -34,4 +34,12 @@ func main() {
 	fmt.Println(sort.IntsAreSorted(highscores))
 	fmt.Println(highscores)
 
+	var programming = []string{"c", "c++", "python", "swift", "java"}
+	fmt.Println(programming)
+
+	//now suppose you want to remove python (we use append to do so)
+	var index int = 2
+	programming = append(programming[:index], programming[index+1:]...)
+	fmt.Println(programming)
+
 }
