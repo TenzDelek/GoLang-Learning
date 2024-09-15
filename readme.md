@@ -37,3 +37,7 @@ env file dir
 # build window exe
 - in your git bash
 - GOOS="windows" go build
+
+# struct
+- we dont have classes in golang / only struct
+- no inheritance/super/parent
