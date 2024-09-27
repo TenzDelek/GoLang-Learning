@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("if else")
@@ -30,4 +33,18 @@ func main() {
 	}
 
 	//nil like python we have None
+	var err error = errors.New("i found a error")
+
+	if err != nil {
+		fmt.Println("error")
+	} else {
+		fmt.Println("no error")
+	}
+	errs := "I found an errsor"
+
+	if errs != "" {
+		fmt.Println("errsor")
+	} else {
+		fmt.Println("no errsor")
+	}
 }
